@@ -23,6 +23,9 @@ def lambda_handler(event, context):
     ret = {'success': True, 'message': '', 'heroes': []}
     
     table_name = 'heroes'  # Nome da tabela de cadastro dos heróis
+
+    if 'body' in event:
+        event = json.loads(event["body"])
     
     favoritos = ('favoritos' in event.keys() and event['favoritos'] == 'S')
     
