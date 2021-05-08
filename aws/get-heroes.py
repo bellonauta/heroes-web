@@ -4,6 +4,7 @@
 #
 # Parâmetros esperados: 
 #   String favoritos = "S" para retornar somente heróis favoritos ou
+#                      "N" para retornar todos
 # 
 # Retorna um dict com os atributos:
 #   success: (bool)true/False

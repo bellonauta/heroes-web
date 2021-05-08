@@ -26,7 +26,7 @@ do flutter com JavaScript. A função JS "combatWinner()", é a que faz o trabal
 ## Instruções para o deploy
 1. Fazer o deploy desse repositório na pasta web desejada;
 2. Editar o arquivo index.html e substituir o href pelo endereço http/https do 
-   servidor web e pasta escolhida. Ex: <base href="http://dominio.com/heroes/">
+   servidor web e pasta escolhida. Ex: \<base href="http://dominio.com/heroes/">
 3. No browser, digitar o endereço da aplicação. Ex: http://dominio.com/heroes/index.php
 
 ---

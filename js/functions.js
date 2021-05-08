@@ -7,8 +7,8 @@
 /**
  * Wrap para Math.max().
  * @param {number} v1 
- * @param {number v2 
- * @returns 
+ * @param {number} v2 
+ * @returns number
  */
 function max(v1, v2) {
     v1 = isNaN(v1) ? 0 : v1;
